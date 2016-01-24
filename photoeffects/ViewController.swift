@@ -39,10 +39,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             
-            self.view.contentMode = .ScaleAspectFit;
-            self.view.backgroundColor = UIColor(patternImage: pickedImage)
-  //          imageView.contentMode = .ScaleAspectFit
-    //        imageView.image = pickedImage
+   //         self.view.contentMode = .ScaleAspectFit;
+     //       self.view.backgroundColor = UIColor(patternImage: pickedImage)
+  
+            let vc = storyboard?.instantiateViewControllerWithIdentifier("PhotoViewController") as! PhotoViewController
+            
+            vc.chosenImage = pickedImage;
+            
+            navigationController?.pushViewController(vc, animated: true)
         }
         
         dismissViewControllerAnimated(true, completion: nil)

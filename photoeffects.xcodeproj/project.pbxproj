@@ -14,6 +14,7 @@
 		CBCCD4D71C5078C000F46A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCCD4D51C5078C000F46A95 /* LaunchScreen.storyboard */; };
 		CBCCD4E21C5078C000F46A95 /* photoeffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCD4E11C5078C000F46A95 /* photoeffectsTests.swift */; };
 		CBCCD4ED1C5078C000F46A95 /* photoeffectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCD4EC1C5078C000F46A95 /* photoeffectsUITests.swift */; };
+		CBCCD5071C5410BB00F46A95 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCD5061C5410BB00F46A95 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CBCCD4E81C5078C000F46A95 /* photoeffectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoeffectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCCD4EC1C5078C000F46A95 /* photoeffectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoeffectsUITests.swift; sourceTree = "<group>"; };
 		CBCCD4EE1C5078C000F46A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCCD5061C5410BB00F46A95 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CBCCD4D31C5078C000F46A95 /* Assets.xcassets */,
 				CBCCD4D51C5078C000F46A95 /* LaunchScreen.storyboard */,
 				CBCCD4D81C5078C000F46A95 /* Info.plist */,
+				CBCCD5061C5410BB00F46A95 /* PhotoViewController.swift */,
 			);
 			path = photoeffects;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				CBCCD4CF1C5078C000F46A95 /* ViewController.swift in Sources */,
 				CBCCD4CD1C5078C000F46A95 /* AppDelegate.swift in Sources */,
+				CBCCD5071C5410BB00F46A95 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
